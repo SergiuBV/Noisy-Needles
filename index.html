@@ -3,7 +3,7 @@
 <head>
   <style>
     body {
-      background-image: url('..//images/22_dhans11.jpg');
+      background-image: url("images/33218325_r31.jpg");
       background-repeat: no-repeat;
       background-attachment: fixed;
       background-size: cover;
@@ -12,7 +12,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home Page</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
@@ -33,27 +33,43 @@
 </head>
 
 <body>
-  <div class="wrapper">
-    <header>
-       <nav>
-          <div class="menu-icon">
-             <i class="fa fa-bars fa-2x"></i>
-          </div>
-          <div class="logo">
-            <img src="images/logo-site2-300x138.png">
-          </div>
-          <div class="menu">
-             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="pages/about.html">About</a></li>
-                <li><a href="pages/technology.html">Technology</a></li>
-                <li><a href="pages/portfolio.html">Portfolio</a></li>
-                <li><a href="pages/contact.html">Contact</a></li>
-             </ul>
-          </div>
-       </nav>
-    </header>
+  <nav id="navbar" class="">
+    <div class="nav-wrapper">
+      <!-- Navbar Logo -->
+      <div class="logo">
+        <!-- Logo Placeholder for Inlustration -->
+        <a href="index.html"><i class="fa fa-angellist"></i>NOISY NEEDLES</a>
+      </div>
+  
+      <!-- Navbar Links -->
+      <ul id="menu">
+        <li><a href="..//index.html">HOME</a></li><!--
+     --><li><a href="..//Pages/about.html">ABOUT</a></li><!--
+     --><li><a href="..//Pages/technology.html">TECHNOLOGY</a></li><!--
+      --><li><a href="..//Pages/portfolio.html">PORTFOLIO</a></li><!--
+     --><li><a href="..//Pages/contact.html">CONTACT</a></li>
+      </ul>
+    </div>
+  </nav>
+  
+  
+  <!-- Menu Icon -->
+  <div class="menuIcon">
+    <span class="icon icon-bars"></span>
+    <span class="icon icon-bars overlay"></span>
   </div>
+  
+  
+  <div class="overlay-menu">
+    <ul id="menu">
+        <li><a href="..//index.html">HOME</a></li>
+        <li><a href="..//Pages/about.html">ABOUT</a></li>
+        <li><a href="..//Pages/technology.html">TECHNOLOGY</a></li>
+        <li><a href="..//Pages/portfolio.html">PORTFOLIO</a></li>
+        <li><a href="..//Pages/contact.html">CONTACT</a></li>
+      </ul>
+  </div>
+
   <div class="container">
   
     <div class="flex-container1">
@@ -74,25 +90,27 @@
     </div>
     
   </div>
+ 
   
+ 
 <!--Footer-->
-  <footer class="bg-dark text-center text-white">
+  <footer class="bg-transparent text-center text-black">
   <!-- Grid container -->
   <div class="container p-4 pb-0">
     <!-- Section: Social media -->
     <section class="mb-4">
       <!-- Facebook -->
-      <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/NoisyNeedles" role="button"
+      <a class="btn btn-outline-dark btn-floating m-1" href="https://www.facebook.com/NoisyNeedles" role="button"
         ><i class="fa fa-facebook-f"></i
       ></a>
 
       <!-- Instagram -->
-      <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/noisy_needles/?utm_medium=copy_link" role="button"
+      <a class="btn btn-outline-dark btn-floating m-1" href="https://www.instagram.com/noisy_needles/?utm_medium=copy_link" role="button"
         ><i class="fa fa-instagram"></i
       ></a>
 
       <!-- Linkedin -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+      <a class="btn btn-outline-dark btn-floating m-1" href="#!" role="button"
         ><i class="fa fa-linkedin"></i
       ></a>
 
@@ -104,7 +122,7 @@
   <!-- Copyright -->
   <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
     © 2020 Copyright:
-    <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    <a class="text-black" href="http://noisyneedles.ro/">noisyneedles.ro</a>
   </div>
   <!-- Copyright -->
 </footer>
